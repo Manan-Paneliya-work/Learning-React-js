@@ -1,0 +1,17 @@
+.head1{
+    background-color: rgb(145, 246, 160);
+    font-weight: 600;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin: 12px;
+    text-align: center;
+  }
+
+  .head2{
+    background-color: rgb(246, 148, 145);
+    font-weight: 600;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin: 12px;
+    text-align: center;
+  }

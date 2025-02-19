@@ -1,0 +1,25 @@
+.buttons button{
+    background-color: rgb(164, 167, 210);
+    width: 200px;
+    height: 100px;
+    margin: 5px;
+    font-size: 50px;
+    font-weight:900 ;
+    border-radius: 10px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+  
+  }
+  .buttons button:hover{
+    background-color: rgb(103, 123, 227);
+  
+  }
+
+  .buttons .btn:active{
+    background-color: rgb(255, 255, 255);
+  }
+
+  .buttons{
+    display:flex;
+    justify-content: center;
+    flex-wrap:wrap ;
+  }

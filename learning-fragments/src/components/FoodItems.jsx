@@ -1,10 +1,19 @@
+import style from "./FoodItems.module.css";
 import Item from "./Item";
 
-const FoodItems = ({items}) => {
+const FoodItems = ({items, HandleBuyButtonClicked}) => {
+
+    
     return (
         <>
-            <ul className="list-group">
-                <Item fitems = {items}></Item>
+            <ul className={style.listGroup}>
+                <Item 
+                className={style.item}
+                 fitems = {items}
+                 HandleBuyButton={HandleBuyButtonClicked}
+                 
+                 >
+                 </Item>
             </ul>
         </>
     );

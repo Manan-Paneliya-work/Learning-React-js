@@ -1,11 +1,11 @@
 import styles from "./Heading.module.css";
 
-const Heading = () => {
+const Heading = ({name}) => {
     return (
         <>  
             
             <hr/>
-            <h1 className={`${styles['head2']} `}>Food Items</h1> 
+            <h1 className={`${styles['head2']} `}>{name}</h1> 
         </>
     );
 };

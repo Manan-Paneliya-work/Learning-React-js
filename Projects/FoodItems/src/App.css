@@ -1,0 +1,12 @@
+h1{
+    /* background-color: blue; */
+    margin: 10px 2px;
+    width: 100%;
+    text-align: center;
+}
+
+.masterContainer{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}

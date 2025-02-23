@@ -1,0 +1,10 @@
+.heading{
+
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    border: 5px dotted rgb(0, 0, 0);
+    border-radius: 10px;
+    margin-left: 10%;
+    text-align: center;
+    width: 80%;
+
+}

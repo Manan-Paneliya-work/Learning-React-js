@@ -1,0 +1,9 @@
+.foodInput{
+    width:80%;
+    /* text-align: center; */
+    margin-left: 10%;
+    font-size: 30px;
+    margin-top: 10px;
+    padding: 5px;
+    border-radius: 8px;
+}
